@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* index page css */
+
+.topcont {
+    background-color: rgb(240, 14, 14);
+}
+
+.links a {
+    margin-top: 10px;
+    float: right;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.links-down a {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.downdlinks {
+    color: rgb(226, 226, 226);
+}
+
+.main {
+    background-color: rgb(216, 216, 216);
+}
+
+.two-conatiner {
+    border-radius: 5px;
+    box-shadow: 15px 10px 20px rgb(102, 102, 101);
+}
+
+h3 {
+    color: rgb(238, 49, 36);
+}
+
+.ipheading {
+    text-align: center;
+}
+
+
+/* sidebar css */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(235, 70, 70);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #0485fd;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* carosel css */
+
+.carousel-inner img {
+    width: 100%;
+}
+
+
+/* indexpage fixed top-image */
+
+.fimg {
+    background-image: url("images/pro-img.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* product card css */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.bg {
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* contact css */
+
+h2 {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: #2196F3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* about page css */
+
+.boxshadow {
+    box-shadow: 10px 15px 20px rgb(90, 88, 88);
+}
+
+#historyh1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+
+#historyp {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 61, 250);
+}
